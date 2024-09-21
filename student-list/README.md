@@ -76,7 +76,7 @@ Now it is time to explain you each file's role:
 - docker-compose-registry.yml: to launch the local registry to save your API
 
 ```bash 
- $url = 'http://<api_ip_or_name:port>/pozos/api/v1.0/get_student_ages';
+ $url = 'http://pozosApi:5055/pozos/api/v1.0/get_student_ages';
  ```
 
 
