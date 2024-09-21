@@ -133,7 +133,7 @@ Run this command to make sure that the API correctly responding (take a screensh
 NB: Start your container using this specific port to reach it
 Port: 5000
 ```bash 
-curl -u toto:python -X GET http://<host IP>:<API exposed port>/pozos/api/v1.0/get_student_ages
+curl -u toto:python -X GET http://pozosApi:5055/pozos/api/v1.0/get_student_ages
 ```
 
 **Congratulation! Now you are ready for the next step (docker-compose.yml)**
